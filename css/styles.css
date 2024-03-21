@@ -74,7 +74,7 @@ section article{
     display: flex;
 }
 .imgs img:first-child{
-    grid-area: 1/2/4/5;
+    grid-area: 1/2/5/4;
 }
 .text{
     display: flex;
@@ -105,5 +105,15 @@ article button{
     }
     .listaProductos ul li a{
         font-size: 2em;
+    }
+    section{
+        flex-direction: row;
+    }
+    .imgs{
+        width: 70%;
+    }
+    section article{
+        width: 30%;
+        justify-content: center;
     }
 }
