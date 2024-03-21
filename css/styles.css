@@ -15,4 +15,45 @@ li{
 }
 a{
     text-decoration: none;
+    color: black;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1em;
+}
+.carrito, .listaProductos{
+    display: none;
+}
+@media screen and (min-width: 500px) {
+    .producto{
+        display: none;
+    }
+    .listaProductos{
+        width: 7%;
+        flex-grow: 1;
+
+        display: flex;
+        justify-content: center;
+    }
+    .listaProductos ul{
+        width: 90%;
+
+        overflow: scroll;
+        
+        display: flex;
+        gap: 2em;
+    }
+    .listaProductos ul li a{
+        font-size: 2em;
+    }
 }
