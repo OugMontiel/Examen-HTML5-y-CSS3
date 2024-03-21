@@ -78,6 +78,7 @@ section article{
 .text{
     display: flex;
     align-items: flex-end;
+    gap: 2em;
 }
 article button{
     height: 2em;
@@ -107,12 +108,10 @@ article button{
     }
     section{
         flex-direction: row;
-    }
-    .imgs{
-        width: 70%;
+        gap: 2em;
     }
     section article{
-        width: 30%;
         justify-content: center;
+        gap: 1em;
     }
 }
