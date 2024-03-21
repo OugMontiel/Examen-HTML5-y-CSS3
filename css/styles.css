@@ -66,15 +66,14 @@ section article{
     height: 50%;    
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(4,1fr);
 }
 .imgs img{
-
     display: flex;
 }
 .imgs img:first-child{
-    grid-area: 1/2/5/4;
+    grid-area: 1/2/5/6;
 }
 .text{
     display: flex;
