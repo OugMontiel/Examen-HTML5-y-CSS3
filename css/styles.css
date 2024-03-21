@@ -84,6 +84,25 @@ article button{
     height: 2em;
     width: 7em;
 }
+.visible{
+    font-size: 2em;
+    
+    position: absolute;
+    overflow: scroll;
+    margin-top: 3rem;
+    height: 50vh;
+    width: 70%;
+    
+    display: flex;
+    justify-content: center;
+
+    background: var(--color-producto);
+}
+.listaX{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 @media screen and (min-width: 500px) {
     .producto{
         display: none;
@@ -113,5 +132,8 @@ article button{
     section article{
         justify-content: center;
         gap: 1em;
+    }
+    header button:first-child{
+        display: none;
     }
 }

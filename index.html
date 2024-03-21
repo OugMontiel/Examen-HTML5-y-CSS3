@@ -10,8 +10,10 @@
 </head>
 <body>
     <header>
-        <button><box-icon name='menu'></box-icon></button>
-        <div class="listaProductos">
+        <button onclick="desplegable()" class="btn">
+            <box-icon name='menu'></box-icon>
+        </button>
+        <div class="listaProductos" id="elemento">
             <ul>
                 <li><a href="#">Producto1</a></li>
                 <li><a href="#">Producto2</a></li>
@@ -29,6 +31,11 @@
                 <li><a href="#">Producto14</a></li>
                 <li><a href="#">Producto15</a></li>
             </ul>
+            <div class="listaX">
+                <button onclick="desplegable()" class="btn">
+                    <box-icon name='x' ></box-icon>
+                </button>
+            </div>
         </div>
         <h1 class="producto">Producto 1</h1>
         <button><box-icon name='cart'></box-icon></button>
