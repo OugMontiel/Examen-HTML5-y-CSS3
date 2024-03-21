@@ -38,8 +38,8 @@
             </div>
         </div>
         <h1 class="producto">Producto 1</h1>
-        <button><box-icon name='cart'></box-icon></button>
-        <div class="carrito">
+        <button onclick="desplegableCarrito()" class="btn"><box-icon name='cart'></box-icon></button>
+        <div class="carrito" id="elementoCarrito">
             <h2>Detalles</h2>
             <div class="main">
                 <div>
@@ -48,7 +48,9 @@
                     <p>5</p>
                     <p>$ 500.00</p>
                     <small>$ 499.95</small>
-                    <box-icon name='x' ></box-icon>
+                    <button>
+                        <box-icon name='x' ></box-icon>
+                    </button>
                 </div>
             </div>
             <div class="total">
